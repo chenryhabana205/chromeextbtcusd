@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "BTC to USD Converter",
+  "description": "Right click selection to convert to USD",
+  "version": "1.0",
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "https://api.coindesk.com/"
+  ]
+}
